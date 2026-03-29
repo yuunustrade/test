@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Routine Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Daily Routine Tracker</h1>
+    <div class="header-right">
+      <span id="current-date"></span>
+      <button id="theme-toggle" aria-label="Toggle dark mode">
+        <span class="theme-icon">🌙</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="app">
+    <!-- Dashboard View -->
+    <section id="dashboard" class="view active">
+      <h2>Today's Progress</h2>
+      <div class="card-grid">
+        <button class="card card-gym" data-module="gym">
+          <span class="card-check" id="check-gym">✓</span>
+          <div class="card-icon">🏋️</div>
+          <h3>Gym</h3>
+          <p>Track exercises, sets & calories</p>
+        </button>
+        <button class="card card-study" data-module="study">
+          <span class="card-check" id="check-study">✓</span>
+          <div class="card-icon">📚</div>
+          <h3>Study</h3>
+          <p>Log subjects, time & focus</p>
+        </button>
+        <button class="card card-sleep" data-module="sleep">
+          <span class="card-check" id="check-sleep">✓</span>
+          <div class="card-icon">😴</div>
+          <h3>Sleep</h3>
+          <p>Record bedtime, wake time & quality</p>
+        </button>
+      </div>
+    </section>
+
+    <!-- Gym Module -->
+    <section id="gym" class="view module">
+      <button class="back-btn" data-back>← Back to Dashboard</button>
+      <h2>🏋️ Gym Tracker</h2>
+      <form id="gym-form" novalidate>
+        <div id="exercises-container"></div>
+        <button type="button" id="add-exercise-btn" class="btn-secondary">+ Add Exercise</button>
+        <div class="form-group calories-group">
+          <label for="gym-calories">Total Calories Burned</label>
+          <input type="number" id="gym-calories" min="0" placeholder="e.g. 400">
+        </div>
+        <button type="submit" class="btn-primary">Save Workout</button>
+      </form>
+    </section>
+
+    <!-- Study Module -->
+    <section id="study" class="view module">
+      <button class="back-btn" data-back>← Back to Dashboard</button>
+      <h2>📚 Study Tracker</h2>
+      <form id="study-form" novalidate>
+        <div class="form-group">
+          <label for="study-subject">Subject / Topic</label>
+          <input type="text" id="study-subject" placeholder="e.g. JavaScript" required>
+        </div>
+        <div class="form-group">
+          <label for="study-duration">Time Spent (minutes)</label>
+          <input type="number" id="study-duration" min="1" placeholder="e.g. 60" required>
+        </div>
+        <div class="form-group">
+          <label for="study-notes">Accomplishments</label>
+          <textarea id="study-notes" rows="4" placeholder="What did you accomplish?"></textarea>
+        </div>
+        <div class="form-group">
+          <label>Focus Rating</label>
+          <div class="star-rating" id="star-rating">
+            <button type="button" class="star" data-value="1">★</button>
+            <button type="button" class="star" data-value="2">★</button>
+            <button type="button" class="star" data-value="3">★</button>
+            <button type="button" class="star" data-value="4">★</button>
+            <button type="button" class="star" data-value="5">★</button>
+          </div>
+          <input type="hidden" id="study-focus" value="0">
+        </div>
+        <button type="submit" class="btn-primary">Save Study Session</button>
+      </form>
+    </section>
+
+    <!-- Sleep Module -->
+    <section id="sleep" class="view module">
+      <button class="back-btn" data-back>← Back to Dashboard</button>
+      <h2>😴 Sleep Tracker</h2>
+      <form id="sleep-form" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="sleep-bedtime">Bedtime</label>
+            <input type="time" id="sleep-bedtime" required>
+          </div>
+          <div class="form-group">
+            <label for="sleep-waketime">Wake Time</label>
+            <input type="time" id="sleep-waketime" required>
+          </div>
+        </div>
+        <div class="sleep-duration-display" id="sleep-duration-display">
+          Total Sleep: <strong id="sleep-duration-value">--</strong>
+        </div>
+        <div class="form-group">
+          <label>Sleep Quality</label>
+          <div class="quality-rating" id="quality-rating">
+            <button type="button" class="quality-btn" data-value="Poor">😴 Poor</button>
+            <button type="button" class="quality-btn" data-value="Fair">😐 Fair</button>
+            <button type="button" class="quality-btn" data-value="Great">🤩 Great</button>
+          </div>
+          <input type="hidden" id="sleep-quality" value="">
+        </div>
+        <div class="form-group">
+          <label for="sleep-notes">Notes</label>
+          <input type="text" id="sleep-notes" placeholder="e.g. Woke up twice">
+        </div>
+        <button type="submit" class="btn-primary">Save Sleep Log</button>
+      </form>
+    </section>
+  </main>
+
+  <div id="toast" class="toast"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
