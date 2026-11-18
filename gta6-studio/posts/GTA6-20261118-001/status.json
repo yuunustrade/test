@@ -1,0 +1,126 @@
+{
+  "post_id": "GTA6-20261118-001",
+  "idea": "When does GTA 6 unlock on PS5 where you live? (PS5-only scope, owner decision)",
+  "pillar": "news",
+  "status": "ON_HOLD",
+  "fact_ids": [
+    "FACT-0001",
+    "FACT-0002",
+    "FACT-0003",
+    "FACT-0004",
+    "FACT-0005",
+    "FACT-0006",
+    "FACT-0007",
+    "FACT-0008",
+    "FACT-0009"
+  ],
+  "asset_ids": [
+    "GTA6-20261118-001-G00",
+    "GTA6-20261118-001-G01",
+    "GTA6-20261118-001-G02",
+    "GTA6-20261118-001-G03",
+    "GTA6-20261118-001-G04",
+    "GTA6-20261118-001-G05A",
+    "GTA6-20261118-001-G05B",
+    "GTA6-20261118-001-G06",
+    "GTA6-20261118-001-G07A",
+    "GTA6-20261118-001-G07B",
+    "GTA6-20261118-001-G07C",
+    "GTA6-20261118-001-G08",
+    "GTA6-20261118-001-G09",
+    "GTA6-20261118-001-G10",
+    "GTA6-20261118-001-G11",
+    "GTA6-20261118-001-G12"
+  ],
+  "render_path": "media/exports/GTA6-20261118-001_DRAFT.mp4",
+  "qc_rounds": 0,
+  "approval_status": "pending",
+  "publish_status": "draft",
+  "platforms": [
+    "youtube_shorts",
+    "tiktok"
+  ],
+  "timezone": "Europe/Rome",
+  "scheduled_local": null,
+  "live_urls": {},
+  "history": [
+    {
+      "at": "2026-11-18T22:35+01:00",
+      "status": "IDEA_NEW",
+      "by": "new_post"
+    },
+    {
+      "at": "2026-11-18T22:50+01:00",
+      "status": "ON_HOLD",
+      "by": "researcher",
+      "note": "NEEDS-PROOF: PS5 timing confirmed (FACT-0003); Xbox Series X|S console unlock time unconfirmed (FACT-0004) because Rockstar Support returned HTTP 503 on every attempt; fan-content policy unread (FACT-0009). See 01-research.md. Time-critical: NZ already live; Rome unlocks 00:00 CET 19 Nov."
+    },
+    {
+      "at": "2026-11-18T23:05",
+      "status": "FACT_VERIFIED",
+      "by": "producer",
+      "note": "Owner chose PS5-only scope. Allowed facts: FACT-0001,0002,0003,0006 (0005 cloud-only, optional). Excluded: FACT-0004,0007,0008,0009."
+    },
+    {
+      "at": "2026-11-18T23:20+01:00",
+      "status": "SCRIPT_DRAFT",
+      "by": "script_writer",
+      "note": "02-script.md written. Hook C (practical). 12 text cards (each 7 words or fewer), 30.5 s, 75 words. Uses FACT-0001,0002,0003,0006 only; FACT-0005 skipped. One labelled 'our conversion' card (NZ midnight = 11:00 UK, 18 Nov). Xbox appears only as the owner-approved 'check Rockstar Support' line. Time is approximate (no system clock)."
+    },
+    {
+      "at": "2026-11-18T23:35+01:00",
+      "status": "SHOTS_PLANNED",
+      "by": "visual_planner",
+      "note": "03-shot-plan.md written: 12 beats / 15 segments, 30.5 s, all original Pillow graphics (16 PNGs in media/graphics/GTA6-20261118-001_*.png, generator make_graphics.py). No shots still needed. Source line and OUR CONVERSION tag baked into graphics. Assets not yet in asset_manifest.csv (rights reviewer). Time approximate."
+    },
+    {
+      "at": "2026-11-18T23:50+01:00",
+      "status": "RIGHTS_REVIEWED",
+      "by": "footage_scout",
+      "note": "16/16 original graphics CLEARED (1080x1920 per ffprobe; generator loads no images; pixel-identical on regeneration; Inter OFL-1.1, DejaVu Bitstream Vera licence). All 15 visual segments covered. Audio: no music/SFX cleared, pending the sound agent (not a shot). See 04-footage.md. Time approximate."
+    },
+    {
+      "at": "2026-11-18T23:55+01:00",
+      "status": "EDITING",
+      "by": "editor",
+      "note": "Building edit.json from 03-shot-plan.md; captions = narration word for word. Time approximate."
+    },
+    {
+      "at": "2026-11-19T00:05+01:00",
+      "status": "RENDER_READY",
+      "by": "editor",
+      "note": "DRAFT rendered 30.51 s, silent (no VO/music cleared). validate_export --min 10 --max 60: PASS, sha256 01d368c20e2c6f08791adee22779b2c0b26f4583eee22cb0273d6aa434fb07bc. 17 caption cards (narration word for word, 5 beats split into 2 cards to stay <=2 lines), all 17 frames checked: no overlap with graphics, clear of platform UI. See 05-edit-notes.md. Time approximate."
+    },
+    {
+      "at": "2026-11-19T00:15+01:00",
+      "status": "ON_HOLD",
+      "by": "sound_designer",
+      "note": "06-sound.md written (VO sheet with per-card timing + paste-ready TTS text, music brief 95-110 BPM, SFX, levels). No cleared audio exists (media/audio empty, no licensed-audio manifest rows, no voice provider configured), so edit.json is unchanged and nothing was re-rendered; the DRAFT is silent (-inf LUFS). OWNER MUST CHOOSE: (A) provide media/audio/GTA6-20261118-001_vo.wav (own voice or licensed AI voice with commercial YouTube+TikTok terms; provider + terms URL for the manifest) OR configure a licensed AI voice provider + API key (cost approval needed, budget 0); optional music = licensed file in media/audio with source + license URL, or in-app music at upload; or (B) publish text-only with platform in-app music added at upload (valid under the playbook; the approver must approve the track per platform). Time approximate."
+    }
+  ],
+  "errors": [],
+  "allowed_statuses": [
+    "IDEA_NEW",
+    "RESEARCHING",
+    "FACT_VERIFIED",
+    "SCRIPT_DRAFT",
+    "SHOTS_PLANNED",
+    "RIGHTS_REVIEWED",
+    "EDITING",
+    "RENDER_READY",
+    "SOUND_DONE",
+    "VIDEO_QC_PASSED",
+    "AWAITING_HUMAN_APPROVAL",
+    "POST_APPROVED",
+    "SCHEDULED",
+    "PUBLISHED_VERIFIED",
+    "METRICS_12H",
+    "METRICS_24H",
+    "METRICS_72H",
+    "ARCHIVED",
+    "ON_HOLD",
+    "REJECTED",
+    "FAILED",
+    "TAKEDOWN_REVIEW"
+  ]
+}

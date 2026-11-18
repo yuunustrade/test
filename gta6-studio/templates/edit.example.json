@@ -1,0 +1,16 @@
+{
+  "post_id": "GTA6-20261119-001",
+  "fps": 30,
+  "output": "media/exports/GTA6-20261119-001_DRAFT.mp4",
+  "segments": [
+    {"type": "video", "file": "media/raw/2026-11-19_capture01.mp4", "in": 12.0, "out": 14.2, "framing": "cover", "x": 0.5, "y": 0.5, "zoom": 1.15, "game_audio": 0.35},
+    {"type": "video", "file": "media/raw/2026-11-19_capture01.mp4", "in": 40.0, "out": 52.0, "framing": "fit", "game_audio": 0.3},
+    {"type": "image", "file": "media/graphics/GTA6-20261119-001_card.png", "duration": 3.0, "framing": "fit"}
+  ],
+  "captions": [
+    {"start": 0.0, "end": 2.2, "text": "Hook line exactly as narrated", "position": "lower"},
+    {"start": 2.2, "end": 6.0, "text": "Context line", "position": "lower"}
+  ],
+  "voiceover": {"file": "media/audio/GTA6-20261119-001_vo.wav", "volume": 1.0},
+  "music": {"file": "media/audio/licensed_track.mp3", "volume": 0.15, "duck": true}
+}
