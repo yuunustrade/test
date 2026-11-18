@@ -2,7 +2,7 @@
   "post_id": "GTA6-20261118-001",
   "idea": "When does GTA 6 unlock on PS5 where you live? (PS5-only scope, owner decision)",
   "pillar": "news",
-  "status": "RIGHTS_REVIEWED",
+  "status": "EDITING",
   "fact_ids": [
     "FACT-0001",
     "FACT-0002",
@@ -78,6 +78,12 @@
       "status": "RIGHTS_REVIEWED",
       "by": "footage_scout",
       "note": "16/16 original graphics CLEARED (1080x1920 per ffprobe; generator loads no images; pixel-identical on regeneration; Inter OFL-1.1, DejaVu Bitstream Vera licence). All 15 visual segments covered. Audio: no music/SFX cleared, pending the sound agent (not a shot). See 04-footage.md. Time approximate."
+    },
+    {
+      "at": "2026-11-18T23:55+01:00",
+      "status": "EDITING",
+      "by": "editor",
+      "note": "Building edit.json from 03-shot-plan.md; captions = narration word for word. Time approximate."
     }
   ],
   "errors": [],

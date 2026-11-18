@@ -1,0 +1,201 @@
+{
+  "post_id": "GTA6-20261118-001",
+  "fps": 30,
+  "output": "media/exports/GTA6-20261118-001_DRAFT.mp4",
+  "segments": [
+    {
+      "type": "image",
+      "file": "media/graphics/GTA6-20261118-001_01_hook_clock_ps5.png",
+      "duration": 2.0,
+      "framing": "fit"
+    },
+    {
+      "type": "image",
+      "file": "media/graphics/GTA6-20261118-001_02_world_clocks.png",
+      "duration": 2.2,
+      "framing": "fit"
+    },
+    {
+      "type": "image",
+      "file": "media/graphics/GTA6-20261118-001_03_calendar_19nov.png",
+      "duration": 2.3,
+      "framing": "fit"
+    },
+    {
+      "type": "image",
+      "file": "media/graphics/GTA6-20261118-001_04_clock_midnight.png",
+      "duration": 2.5,
+      "framing": "fit"
+    },
+    {
+      "type": "image",
+      "file": "media/graphics/GTA6-20261118-001_05a_sweep_nz.png",
+      "duration": 1.4,
+      "framing": "fit"
+    },
+    {
+      "type": "image",
+      "file": "media/graphics/GTA6-20261118-001_05b_sweep_2.png",
+      "duration": 1.4,
+      "framing": "fit"
+    },
+    {
+      "type": "image",
+      "file": "media/graphics/GTA6-20261118-001_06_nz_uk_conversion.png",
+      "duration": 3.2,
+      "framing": "fit"
+    },
+    {
+      "type": "image",
+      "file": "media/graphics/GTA6-20261118-001_07a_sweep_3.png",
+      "duration": 1.0,
+      "framing": "fit"
+    },
+    {
+      "type": "image",
+      "file": "media/graphics/GTA6-20261118-001_07b_sweep_4.png",
+      "duration": 1.0,
+      "framing": "fit"
+    },
+    {
+      "type": "image",
+      "file": "media/graphics/GTA6-20261118-001_07c_sweep_all.png",
+      "duration": 0.8,
+      "framing": "fit"
+    },
+    {
+      "type": "image",
+      "file": "media/graphics/GTA6-20261118-001_08_timezones_info.png",
+      "duration": 2.5,
+      "framing": "fit"
+    },
+    {
+      "type": "image",
+      "file": "media/graphics/GTA6-20261118-001_09_not_ps4.png",
+      "duration": 2.2,
+      "framing": "fit"
+    },
+    {
+      "type": "image",
+      "file": "media/graphics/GTA6-20261118-001_10_download_bar.png",
+      "duration": 2.5,
+      "framing": "fit"
+    },
+    {
+      "type": "image",
+      "file": "media/graphics/GTA6-20261118-001_11_storage_212gb.png",
+      "duration": 2.8,
+      "framing": "fit"
+    },
+    {
+      "type": "image",
+      "file": "media/graphics/GTA6-20261118-001_12_end_info.png",
+      "duration": 2.7,
+      "framing": "fit"
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.0,
+      "end": 2.0,
+      "text": "When does GTA 6\nhit your PS5?",
+      "position": "lower"
+    },
+    {
+      "start": 2.0,
+      "end": 4.2,
+      "text": "Not everywhere at\nthe same moment.",
+      "position": "lower"
+    },
+    {
+      "start": 4.2,
+      "end": 6.5,
+      "text": "Release day:\nNovember 19, 2026.",
+      "position": "lower"
+    },
+    {
+      "start": 6.5,
+      "end": 9.0,
+      "text": "On PS5, it's\nmidnight local time.",
+      "position": "lower"
+    },
+    {
+      "start": 9.0,
+      "end": 10.4,
+      "text": "Country by country,",
+      "position": "lower"
+    },
+    {
+      "start": 10.4,
+      "end": 11.8,
+      "text": "starting in\nNew Zealand.",
+      "position": "lower"
+    },
+    {
+      "start": 11.8,
+      "end": 15.0,
+      "text": "Our math: 11am UK\ntime, November 18.",
+      "position": "lower"
+    },
+    {
+      "start": 15.0,
+      "end": 16.0,
+      "text": "Your turn:",
+      "position": "lower"
+    },
+    {
+      "start": 16.0,
+      "end": 17.8,
+      "text": "when your country\nhits midnight.",
+      "position": "lower"
+    },
+    {
+      "start": 17.8,
+      "end": 19.0,
+      "text": "Several time zones?",
+      "position": "lower"
+    },
+    {
+      "start": 19.0,
+      "end": 20.3,
+      "text": "Check\nPlayStation Support.",
+      "position": "lower"
+    },
+    {
+      "start": 20.3,
+      "end": 22.5,
+      "text": "Heads up:\nit's not on PS4.",
+      "position": "lower"
+    },
+    {
+      "start": 22.5,
+      "end": 23.5,
+      "text": "Pre-ordered?",
+      "position": "lower"
+    },
+    {
+      "start": 23.5,
+      "end": 25.0,
+      "text": "Pre-load opened\nNovember 10.",
+      "position": "lower"
+    },
+    {
+      "start": 25.0,
+      "end": 27.8,
+      "text": "You need at least\n212GB free.",
+      "position": "lower"
+    },
+    {
+      "start": 27.8,
+      "end": 28.9,
+      "text": "Xbox player?",
+      "position": "lower"
+    },
+    {
+      "start": 28.9,
+      "end": 30.5,
+      "text": "Check Rockstar\nSupport for times.",
+      "position": "lower"
+    }
+  ]
+}
