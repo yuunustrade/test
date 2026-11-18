@@ -90,6 +90,12 @@ def badge(d, cx, cy, label, size=90, fg=WHITE, border=WHITE, fill=None):
     return box
 
 
+def source_line(img):
+    d = ImageDraw.Draw(img)
+    pill(d, [CX - 330, 1015, CX + 330, 1070], fill=(0, 0, 0), outline=DIM, width=2, radius=16)
+    text_c(d, (CX, 1042), "Source: PlayStation Blog, 10 Nov 2026", font(SEMI, 32), (200, 206, 222))
+
+
 def save(img, name):
     p = os.path.join(OUT, f"{PID}_{name}.png")
     img.convert("RGB").save(p)
@@ -166,15 +172,18 @@ save(img, "03_calendar_19nov")
 # 04 midnight clock + PS5 badge
 img = base(); d = ImageDraw.Draw(img)
 clock(d, CX, 520, 300, 0, 0, ring=PINK, width=18)
-pill(d, [CX - 220, 870, CX + 220, 990], fill=(18, 22, 40), outline=TEAL, width=5, radius=28)
-text_c(d, (CX, 930), "00:00", font(MONO, 96), TEAL)
+pill(d, [CX - 220, 860, CX + 220, 970], fill=(18, 22, 40), outline=TEAL, width=5, radius=28)
+text_c(d, (CX, 915), "00:00", font(MONO, 96), TEAL)
 badge(d, CX, 190, "PS5", size=64, border=WHITE, fill=None)
+source_line(img)
 save(img, "04_clock_midnight")
 
 # 05 / 07 sweep frames
 for name, hl in [("05a_sweep_nz", [0]), ("05b_sweep_2", [0, 1]), ("07a_sweep_3", [0, 1, 2]),
                  ("07b_sweep_4", [0, 1, 2, 3]), ("07c_sweep_all", [0, 1, 2, 3, 4])]:
     img = base(); strip(img, highlighted=hl)
+    if name.startswith("05"):
+        source_line(img)
     save(img, name)
 
 # 06 NZ vs UK conversion with permanent OUR CONVERSION tag
