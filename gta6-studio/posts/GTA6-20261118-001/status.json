@@ -1,8 +1,8 @@
 {
   "post_id": "GTA6-20261118-001",
-  "idea": "When can you play GTA 6 where you live? Launch timing by region on PS5 and Xbox Series X|S",
+  "idea": "When does GTA 6 unlock on PS5 where you live? (PS5-only scope, owner decision)",
   "pillar": "news",
-  "status": "ON_HOLD",
+  "status": "SCRIPT_DRAFT",
   "fact_ids": [
     "FACT-0001",
     "FACT-0002",
@@ -37,6 +37,18 @@
       "status": "ON_HOLD",
       "by": "researcher",
       "note": "NEEDS-PROOF: PS5 timing confirmed (FACT-0003); Xbox Series X|S console unlock time unconfirmed (FACT-0004) because Rockstar Support returned HTTP 503 on every attempt; fan-content policy unread (FACT-0009). See 01-research.md. Time-critical: NZ already live; Rome unlocks 00:00 CET 19 Nov."
+    },
+    {
+      "at": "2026-11-18T23:05",
+      "status": "FACT_VERIFIED",
+      "by": "producer",
+      "note": "Owner chose PS5-only scope. Allowed facts: FACT-0001,0002,0003,0006 (0005 cloud-only, optional). Excluded: FACT-0004,0007,0008,0009."
+    },
+    {
+      "at": "2026-11-18T23:20+01:00",
+      "status": "SCRIPT_DRAFT",
+      "by": "script_writer",
+      "note": "02-script.md written. Hook C (practical). 12 text cards (each 7 words or fewer), 30.5 s, 75 words. Uses FACT-0001,0002,0003,0006 only; FACT-0005 skipped. One labelled 'our conversion' card (NZ midnight = 11:00 UK, 18 Nov). Xbox appears only as the owner-approved 'check Rockstar Support' line. Time is approximate (no system clock)."
     }
   ],
   "errors": [],

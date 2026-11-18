@@ -60,3 +60,9 @@ The PS5 half is fully confirmed by PlayStation's own pages. The Xbox Series X|S 
 2. Open the Rockstar fan-content policy (FACT-0009) before rights review.
 
 **Fast alternative if the time window matters:** the owner could rescope to PS5 only ("When does GTA 6 unlock on PS5 where you live?"). Every PS5 claim (FACT-0001/0002/0003/0006) is confirmed, plus the clearly labelled Xbox Cloud 1am ET line (FACT-0005). That would need a new idea decision by the owner/orchestrator. The researcher does not change scope on its own.
+
+## Owner scope decision (producer, 2026-11-18 ~23:05 Europe/Rome)
+Scope narrowed to **PS5 only**. Usable facts: FACT-0001, FACT-0002, FACT-0003, FACT-0006.
+Do NOT state any Xbox console unlock or pre-load time (FACT-0004, FACT-0007), PC status (FACT-0008), or fan-policy terms (FACT-0009).
+Xbox may only appear as: "Playing on Xbox? Check Rockstar Support for your times." (no time stated).
+No Rockstar/PlayStation artwork or logos: original graphics only.
