@@ -2,8 +2,18 @@
   "post_id": "GTA6-20261118-001",
   "idea": "When can you play GTA 6 where you live? Launch timing by region on PS5 and Xbox Series X|S",
   "pillar": "news",
-  "status": "IDEA_NEW",
-  "fact_ids": [],
+  "status": "ON_HOLD",
+  "fact_ids": [
+    "FACT-0001",
+    "FACT-0002",
+    "FACT-0003",
+    "FACT-0004",
+    "FACT-0005",
+    "FACT-0006",
+    "FACT-0007",
+    "FACT-0008",
+    "FACT-0009"
+  ],
   "asset_ids": [],
   "render_path": null,
   "qc_rounds": 0,
@@ -21,6 +31,12 @@
       "at": "2026-11-18T22:35+01:00",
       "status": "IDEA_NEW",
       "by": "new_post"
+    },
+    {
+      "at": "2026-11-18T22:50+01:00",
+      "status": "ON_HOLD",
+      "by": "researcher",
+      "note": "NEEDS-PROOF: PS5 timing confirmed (FACT-0003); Xbox Series X|S console unlock time unconfirmed (FACT-0004) because Rockstar Support returned HTTP 503 on every attempt; fan-content policy unread (FACT-0009). See 01-research.md. Time-critical: NZ already live; Rome unlocks 00:00 CET 19 Nov."
     }
   ],
   "errors": [],
