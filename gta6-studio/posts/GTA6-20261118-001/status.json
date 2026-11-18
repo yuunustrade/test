@@ -2,7 +2,7 @@
   "post_id": "GTA6-20261118-001",
   "idea": "When does GTA 6 unlock on PS5 where you live? (PS5-only scope, owner decision)",
   "pillar": "news",
-  "status": "RENDER_READY",
+  "status": "ON_HOLD",
   "fact_ids": [
     "FACT-0001",
     "FACT-0002",
@@ -90,6 +90,12 @@
       "status": "RENDER_READY",
       "by": "editor",
       "note": "DRAFT rendered 30.51 s, silent (no VO/music cleared). validate_export --min 10 --max 60: PASS, sha256 01d368c20e2c6f08791adee22779b2c0b26f4583eee22cb0273d6aa434fb07bc. 17 caption cards (narration word for word, 5 beats split into 2 cards to stay <=2 lines), all 17 frames checked: no overlap with graphics, clear of platform UI. See 05-edit-notes.md. Time approximate."
+    },
+    {
+      "at": "2026-11-19T00:15+01:00",
+      "status": "ON_HOLD",
+      "by": "sound_designer",
+      "note": "06-sound.md written (VO sheet with per-card timing + paste-ready TTS text, music brief 95-110 BPM, SFX, levels). No cleared audio exists (media/audio empty, no licensed-audio manifest rows, no voice provider configured), so edit.json is unchanged and nothing was re-rendered; the DRAFT is silent (-inf LUFS). OWNER MUST CHOOSE: (A) provide media/audio/GTA6-20261118-001_vo.wav (own voice or licensed AI voice with commercial YouTube+TikTok terms; provider + terms URL for the manifest) OR configure a licensed AI voice provider + API key (cost approval needed, budget 0); optional music = licensed file in media/audio with source + license URL, or in-app music at upload; or (B) publish text-only with platform in-app music added at upload (valid under the playbook; the approver must approve the track per platform). Time approximate."
     }
   ],
   "errors": [],
