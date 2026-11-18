@@ -2,8 +2,8 @@
 
 > Every agent reads this first. Anything marked `UNDECIDED` must be filled in by the owner; agents must not guess it.
 
-Brand name: UNDECIDED
-Handle: UNDECIDED
+Brand name: GTA6 Studio (WORKING PLACEHOLDER — owner picks final name before posting)
+Handle: UNDECIDED (placeholder; do not print a handle in videos yet)
 Default time zone: Europe/Rome
 Human approval hours: UNDECIDED (e.g. 09:00–23:00 Europe/Rome)
 Primary audience: English-speaking GTA 6 players
@@ -15,8 +15,8 @@ Initial pillars: discoveries, practical tips, funny gameplay moments (news as su
 Spoilers: no major story spoilers; mark minor spoilers clearly
 Default format: 9:16, 1080x1920, 20–45 seconds, H.264 + AAC
 Posting target: 2 unique videos per day, cross-posted with per-platform captions
-Narration: UNDECIDED (my own voice / licensed AI voice / on-screen text only)
-Footage mode: UNDECIDED
+Narration: licensed AI voice (provider + API key NOT yet configured; until then drafts render with on-screen text only and VO is ON_HOLD)
+Footage mode: news-explainer
   - `own-capture`  = I record gameplay on my own PS5/Xbox Series X|S
   - `news-explainer` = official info + original graphics/text, no gameplay demos
 Creator clips: none unless written permission is stored in permissions/

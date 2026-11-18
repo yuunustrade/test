@@ -1,0 +1,51 @@
+{
+  "post_id": "GTA6-20261118-001",
+  "idea": "When can you play GTA 6 where you live? Launch timing by region on PS5 and Xbox Series X|S",
+  "pillar": "news",
+  "status": "IDEA_NEW",
+  "fact_ids": [],
+  "asset_ids": [],
+  "render_path": null,
+  "qc_rounds": 0,
+  "approval_status": "pending",
+  "publish_status": "draft",
+  "platforms": [
+    "youtube_shorts",
+    "tiktok"
+  ],
+  "timezone": "Europe/Rome",
+  "scheduled_local": null,
+  "live_urls": {},
+  "history": [
+    {
+      "at": "2026-11-18T22:35+01:00",
+      "status": "IDEA_NEW",
+      "by": "new_post"
+    }
+  ],
+  "errors": [],
+  "allowed_statuses": [
+    "IDEA_NEW",
+    "RESEARCHING",
+    "FACT_VERIFIED",
+    "SCRIPT_DRAFT",
+    "SHOTS_PLANNED",
+    "RIGHTS_REVIEWED",
+    "EDITING",
+    "RENDER_READY",
+    "SOUND_DONE",
+    "VIDEO_QC_PASSED",
+    "AWAITING_HUMAN_APPROVAL",
+    "POST_APPROVED",
+    "SCHEDULED",
+    "PUBLISHED_VERIFIED",
+    "METRICS_12H",
+    "METRICS_24H",
+    "METRICS_72H",
+    "ARCHIVED",
+    "ON_HOLD",
+    "REJECTED",
+    "FAILED",
+    "TAKEDOWN_REVIEW"
+  ]
+}
