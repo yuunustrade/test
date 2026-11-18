@@ -2,7 +2,7 @@
   "post_id": "GTA6-20261118-001",
   "idea": "When does GTA 6 unlock on PS5 where you live? (PS5-only scope, owner decision)",
   "pillar": "news",
-  "status": "EDITING",
+  "status": "RENDER_READY",
   "fact_ids": [
     "FACT-0001",
     "FACT-0002",
@@ -32,7 +32,7 @@
     "GTA6-20261118-001-G11",
     "GTA6-20261118-001-G12"
   ],
-  "render_path": null,
+  "render_path": "media/exports/GTA6-20261118-001_DRAFT.mp4",
   "qc_rounds": 0,
   "approval_status": "pending",
   "publish_status": "draft",
@@ -84,6 +84,12 @@
       "status": "EDITING",
       "by": "editor",
       "note": "Building edit.json from 03-shot-plan.md; captions = narration word for word. Time approximate."
+    },
+    {
+      "at": "2026-11-19T00:05+01:00",
+      "status": "RENDER_READY",
+      "by": "editor",
+      "note": "DRAFT rendered 30.51 s, silent (no VO/music cleared). validate_export --min 10 --max 60: PASS, sha256 01d368c20e2c6f08791adee22779b2c0b26f4583eee22cb0273d6aa434fb07bc. 17 caption cards (narration word for word, 5 beats split into 2 cards to stay <=2 lines), all 17 frames checked: no overlap with graphics, clear of platform UI. See 05-edit-notes.md. Time approximate."
     }
   ],
   "errors": [],
