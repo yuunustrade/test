@@ -2,7 +2,7 @@
   "post_id": "GTA6-20261118-001",
   "idea": "When does GTA 6 unlock on PS5 where you live? (PS5-only scope, owner decision)",
   "pillar": "news",
-  "status": "SHOTS_PLANNED",
+  "status": "RIGHTS_REVIEWED",
   "fact_ids": [
     "FACT-0001",
     "FACT-0002",
@@ -14,7 +14,24 @@
     "FACT-0008",
     "FACT-0009"
   ],
-  "asset_ids": [],
+  "asset_ids": [
+    "GTA6-20261118-001-G00",
+    "GTA6-20261118-001-G01",
+    "GTA6-20261118-001-G02",
+    "GTA6-20261118-001-G03",
+    "GTA6-20261118-001-G04",
+    "GTA6-20261118-001-G05A",
+    "GTA6-20261118-001-G05B",
+    "GTA6-20261118-001-G06",
+    "GTA6-20261118-001-G07A",
+    "GTA6-20261118-001-G07B",
+    "GTA6-20261118-001-G07C",
+    "GTA6-20261118-001-G08",
+    "GTA6-20261118-001-G09",
+    "GTA6-20261118-001-G10",
+    "GTA6-20261118-001-G11",
+    "GTA6-20261118-001-G12"
+  ],
   "render_path": null,
   "qc_rounds": 0,
   "approval_status": "pending",
@@ -55,6 +72,12 @@
       "status": "SHOTS_PLANNED",
       "by": "visual_planner",
       "note": "03-shot-plan.md written: 12 beats / 15 segments, 30.5 s, all original Pillow graphics (16 PNGs in media/graphics/GTA6-20261118-001_*.png, generator make_graphics.py). No shots still needed. Source line and OUR CONVERSION tag baked into graphics. Assets not yet in asset_manifest.csv (rights reviewer). Time approximate."
+    },
+    {
+      "at": "2026-11-18T23:50+01:00",
+      "status": "RIGHTS_REVIEWED",
+      "by": "footage_scout",
+      "note": "16/16 original graphics CLEARED (1080x1920 per ffprobe; generator loads no images; pixel-identical on regeneration; Inter OFL-1.1, DejaVu Bitstream Vera licence). All 15 visual segments covered. Audio: no music/SFX cleared, pending the sound agent (not a shot). See 04-footage.md. Time approximate."
     }
   ],
   "errors": [],
